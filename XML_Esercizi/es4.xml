@@ -1,0 +1,13 @@
+<?xml version=”1.0” encoding=”UTF-8”?>
+		<cd>
+			<label></label>
+			<artists></artists>
+			<songs>
+				<number></number>
+				<lenght></lenght>
+				<title></title>
+				<cd_cover></cd_cover>
+			</songs>
+			<publish_date></publish_date>
+			<category></category>
+		</cd>
