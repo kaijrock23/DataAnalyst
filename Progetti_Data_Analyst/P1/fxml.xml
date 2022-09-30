@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <videogiocatori>  <!-- Root XML -->
+        <fascia:"0-5"> <!-- Eta' media per analisi -->
+            <sesso> <!-- report in base al sesso -->
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione> <!-- report in base alla nazionalita' -->
+        </fascia:"0-5">
+        <fascia:"5-10">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"5-10">
+        <fascia:"10-21">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"10-21">
+        <fascia:"21-35">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"21-35">
+        <fascia:"35-40">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"35-40">
+        <fascia:"40-50">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"40-50">
+        <fascia:"50-55">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"50-55">
+        <fascia:"55-65">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"55-65">
+        <fascia:"65-70">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"65-70">
+        <fascia:"70-100">
+            <sesso>
+                <maschi></maschi>
+                <femmine></femmine>
+            </sesso>
+            <nazione></nazione>
+        </fascia:"70-100">
+    </videogiocatori>

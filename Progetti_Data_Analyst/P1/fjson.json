@@ -1,0 +1,184 @@
+{
+  "games": {
+    "game1": {
+      "name": "Metal Gear Solid", // titolo videogioco
+      "type": "Stealth", // tipo videogioco
+      "views": 50000, // interesse
+      "subject": "Military", // soggetto
+      "developer": "Konami", // sviluppatore
+      "publisher": "Sony", // publisher
+      "out": true, // in commercio
+      "score": null, // punteggio
+      "public": [
+        {
+          // utenza, anni utenza, sesso utenza, nazione utenza
+          "age": 10,
+          "gender": ["M", "F"],
+          "nation": "Japan"
+        }
+      ]
+    }
+  },
+  "game2": {
+    "name": "Sonic", // titolo videogioco
+    "type": "Platform", // tipo videogioco
+    "views": 1800, // interesse
+    "subject": "Adventure", // soggetto
+    "developer": "Sega", // sviluppatore
+    "publisher": "Sega", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 10,
+        "gender": ["M", "F"],
+        "nation": "Japan"
+      }
+    ]
+  },
+  "game3": {
+    "name": "Crash Bandicoot", // titolo videogioco
+    "type": "Platform", // tipo videogioco
+    "views": 20000, // interesse
+    "subject": "Adventure", // soggetto
+    "developer": "Naughty Dog", // sviluppatore
+    "publisher": "Sony", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 5,
+        "gender": ["M", "F"],
+        "nation": "Italy"
+      }
+    ]
+  },
+  "game4": {
+    "name": "Tomb Raider", // titolo videogioco
+    "type": "Adventure", // tipo videogioco
+    "views": 30000, // interesse
+    "subject": "Discovery", // soggetto
+    "developer": "Eidos", // sviluppatore
+    "publisher": "Sony", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 25,
+        "gender": ["M", "F"],
+        "nation": "France"
+      }
+    ]
+  },
+  "game5": {
+    "name": "Final Fantasy", // titolo videogioco
+    "type": "RPG", // tipo videogioco
+    "views": 150000, // interesse
+    "subject": "Fantasy", // soggetto
+    "developer": "SquareSoft", // sviluppatore
+    "publisher": "Sony", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 17,
+        "gender": ["M", "F"],
+        "nation": "Japan"
+      }
+    ]
+  },
+  "game6": {
+    "name": "Castlevania SOTN", // titolo videogioco
+    "type": "Adventure", // tipo videogioco
+    "views": 80000, // interesse
+    "subject": "Fantasy", // soggetto
+    "developer": "Konami", // sviluppatore
+    "publisher": "Sony", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 27,
+        "gender": ["M", "F"],
+        "nation": "USA"
+      }
+    ]
+  },
+  "game7": {
+    "name": "Silent Hill", // titolo videogioco
+    "type": "Horror", // tipo videogioco
+    "views": 20000, // interesse
+    "subject": "Suspense", // soggetto
+    "developer": "Konami", // sviluppatore
+    "publisher": "Sony", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 24,
+        "gender": ["M", "F"],
+        "nation": "Japan"
+      }
+    ]
+  },
+  "game8": {
+    "name": "World Of Warcraft", // titolo videogioco
+    "type": "MMO", // tipo videogioco
+    "views": 2000000, // interesse
+    "subject": "Online", // soggetto
+    "developer": "Blizzard", // sviluppatore
+    "publisher": "Blizzard", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 18,
+        "gender": ["M", "F"],
+        "nation": "USA"
+      }
+    ]
+  },
+  "game9": {
+    "name": "Monster Hunter", // titolo videogioco
+    "type": "Action", // tipo videogioco
+    "views": 70000, // interesse
+    "subject": "Fantasy", // soggetto
+    "developer": "Capcom", // sviluppatore
+    "publisher": "Sony", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 12,
+        "gender": ["M", "F"],
+        "nation": "Japan"
+      }
+    ]
+  },
+  "game10": {
+    "name": "Tekken", // titolo videogioco
+    "type": "Fighting", // tipo videogioco
+    "views": 500000, // interesse
+    "subject": "Martial Arts", // soggetto
+    "developer": "Namco", // sviluppatore
+    "publisher": "Bandai", // publisher
+    "out": true, // in commercio
+    "score": null, // punteggio
+    "public": [
+      {
+        // utenza, anni utenza, sesso utenza, nazione utenza
+        "age": 8,
+        "gender": ["M", "F"],
+        "nation": "Japan"
+      }
+    ]
+  }
+}
