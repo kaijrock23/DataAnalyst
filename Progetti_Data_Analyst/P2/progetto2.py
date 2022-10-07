@@ -11,15 +11,15 @@ with open("C:\\Users\\Kai_J\\Desktop\\Data_Analyst\\Progetti_Data_Analyst\\P2\\o
     for i in dataset:           # Morti e casi Covid19 in Italia e Germania
         if i[3] == 'Italy' and i[5] != "":
              t_italy_cases.append(float(i[5]))
-        if i[3] == 'Germany' and i[5] != "":
+        elif i[3] == 'Germany' and i[5] != "":
              t_germany_cases.append(float(i[5]))
         if i[3] == 'Italy' and i[8] != "":
             t_italy_deaths.append(float(i[8]))
-        if i[3] == 'Germany' and i[8] != "":
+        elif i[3] == 'Germany' and i[8] != "":
             t_italy_deaths.append(float(i[8]))
         if i[2] == 'Europe' and i[29] != "":            #Tasso di positivita' fra Europa e Asia
              t_europe_prate.append(float(i[29]))
-        if i[2] == 'Asia' and i[29] != "":
+        elif i[2] == 'Asia' and i[29] != "":
              t_asia_prate.append(float(i[29]))
 
 
