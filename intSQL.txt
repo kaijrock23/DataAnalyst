@@ -1,0 +1,10 @@
+SELECT Citta FROM  Aeroporto WHERE NumPiste IS NULL
+SELECT TipoDiAereo FROM Volo WHERE CittaPart = 'Torino'
+SELECT Citta FROM Volo WHERE tipoAereo = 'Diretto'
+SELECT CittaPart, CittaArr FROM VOLO WHERE IdVolo = 'AZ274'
+SELECT TipoDiAereo, GiornoSett, OraPart FROM Volo WHERE CittaPart = 'B%O% ' AND  CittaArr = '%E%A'
+
+3. Le città da cui partono voli diretti a Bologna 
+SELECT CittàPart 
+FROM VOLO 
+WHERE CittàArr= 'Bologna'
