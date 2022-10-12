@@ -8,3 +8,44 @@ SELECT TipoDiAereo, GiornoSett, OraPart FROM Volo WHERE CittaPart = 'B%O% ' AND 
 SELECT CittàPart 
 FROM VOLO 
 WHERE CittàArr= 'Bologna'
+
+
+
+
+
+
+select AUTORE.CANTANTE, Nome, NomeCantante WHERE nome = 'D%'
+SELECT TitoloAlbum FROM DISCO WHERE Anno IS NULL
+
+
+
+
+SELECT NomeCantante 
+FROM CANTANTE JOIN ESECUZIONE ON                              # La tabella di sx che prendiamo, ossia CANTANTE
+CANTANTE.CodiceReg=ESECUZIONE.CodiceReg                       #equivalenza
+JOIN AUTORE ON ESECUZIONE.TitoloCanz=AUTORE.TitoloCanzone     #unisco attributi con nomi diversi 
+WHERE Nome=NomeCantante AND Nome LIKE 'D%'; 
+
+
+
+SELECT TitoloAlbum
+FROM DISCO JOIN CONTIENE ON
+        DISCO.NroSerie = CONTIENE.NroSerieDisco
+        JOIN ESECUZIONE ON CONTIENE.CodiceReg = ESECUZIONE.CodiceReg
+WHERE ESECUZIONE.Anno IS NULL;
+
+
+
+
+SELECT NomeCantante
+FROM CANTANTE
+WHERE NomeCantante NOT IN
+                     (SELECT S1.NomeCantante
+                      FROM CANTANTE AS S1
+                      WHERE CodiceReg NOT IN
+                                        (SELECT CodiceReg
+                                         FROM CANTANTE S2
+                       WHERE S2.NomeCantante <> S1.NomeCantante);
+
+
+SELECT C.NomeCantante FROM CANTANTE C JOIN ESECUZIONE E ON C.CodiceReg = E.CodiceReg JOIN AUTORE A ON E.TitoloCanz = A.TitoloCanzone WHERE C.NomeCantante = A.Nome;
